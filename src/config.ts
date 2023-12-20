@@ -1,3 +1,3 @@
 export const environment={
-    endPoint: 'http://www.apilibros.somee.com/api/'
+    endPoint: 'https://www.apilibros.somee.com/api/'
 }

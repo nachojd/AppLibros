@@ -27,6 +27,6 @@ export class LibroService {
   }
 
   delete(idLibro: number): Observable<void>{
-    return this.http.delete<void>(`${this.apiUrl}Eliminar/${idLibro}`);
+    return this.http.delete<void>(`${this.apiUrl}Eliminar/${idLibro}`)
   }
 }

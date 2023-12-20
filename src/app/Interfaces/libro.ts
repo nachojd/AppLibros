@@ -5,5 +5,5 @@ export interface Libro{
     imagen: string,
     descripcion: string,
     fechaPublicacion: string,
-    estrellas: number
+    estrellas: number,
 }
